@@ -8,7 +8,7 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -30,4 +30,22 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+/* styles/globals.css */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
 }
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
